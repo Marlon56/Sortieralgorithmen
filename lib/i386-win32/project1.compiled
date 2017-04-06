@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\2.6.4\bin\i386-win32\fpc.exe" Date="1154384177"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -vewnhi &quot;-FiE:\Informatik MSS12\Juni 2016\2016-06-21 Sortieralgorithmen\lib\i386-win32&quot; -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 &quot;-FuE:\Informatik MSS12\Juni 2016\2016-06-21 Sortieralgorithmen\&quot; &quot;-FUE:\Informatik MSS12\Juni 2016\2016-06-21 Sortieralgorithmen\lib\i386-win32\&quot; -l -dLCL -dLCLwin32 project1.lpr"/>
+</CONFIG>

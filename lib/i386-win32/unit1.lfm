@@ -1,0 +1,119 @@
+object Form1: TForm1
+  Left = 1026
+  Height = 426
+  Top = 127
+  Width = 320
+  Caption = 'Sortieralgorithmen'
+  ClientHeight = 426
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object Memo1: TMemo
+    Left = 160
+    Height = 328
+    Top = 88
+    Width = 150
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 8
+    Height = 328
+    Top = 88
+    Width = 146
+    ClientHeight = 328
+    ClientWidth = 146
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 8
+      Height = 15
+      Top = 8
+      Width = 66
+      AutoSize = False
+      Caption = 'Feldgröße:'
+      ParentColor = False
+    end
+    object Edit1: TEdit
+      Left = 8
+      Height = 23
+      Top = 32
+      Width = 80
+      OnKeyPress = Edit1KeyPress
+      TabOrder = 0
+    end
+    object Bzufall: TButton
+      Left = 8
+      Height = 25
+      Top = 72
+      Width = 128
+      Caption = 'Feld mit Zufallszahlen'
+      OnClick = BzufallClick
+      TabOrder = 1
+    end
+    object Bbubblesort: TButton
+      Left = 8
+      Height = 25
+      Top = 104
+      Width = 128
+      Caption = 'Bubblesort'
+      OnClick = BbubblesortClick
+      TabOrder = 2
+    end
+    object Bausgabe: TButton
+      Left = 8
+      Height = 25
+      Top = 232
+      Width = 128
+      Caption = 'Feld ausgeben'
+      OnClick = BausgabeClick
+      TabOrder = 3
+    end
+    object Bclose: TButton
+      Left = 8
+      Height = 26
+      Top = 264
+      Width = 128
+      Caption = 'Schließen'
+      OnClick = BcloseClick
+      TabOrder = 4
+    end
+    object Bselectsort: TButton
+      Left = 8
+      Height = 25
+      Top = 136
+      Width = 128
+      Caption = 'Selectsort'
+      OnClick = BselectsortClick
+      TabOrder = 5
+    end
+    object Binsert: TButton
+      Left = 8
+      Height = 25
+      Top = 168
+      Width = 128
+      Caption = 'Insertsort'
+      OnClick = BinsertClick
+      TabOrder = 6
+    end
+    object Bquick: TButton
+      Left = 8
+      Height = 25
+      Top = 200
+      Width = 128
+      Caption = 'Quicksort'
+      OnClick = BquickClick
+      TabOrder = 7
+    end
+  end
+  object Palgorithmen: TPanel
+    Left = 8
+    Height = 50
+    Top = 16
+    Width = 304
+    Caption = 'Palgorithmen'
+    TabOrder = 2
+  end
+end
